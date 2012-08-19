@@ -1,10 +1,15 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.1'
+ 
+# gems for production
+#group :production do
+#  gem "pg"
+#end
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
+gem 'pg'
 gem 'sqlite3'
 gem 'mysql2', :group => :production
 
@@ -35,4 +40,13 @@ gem 'jquery-rails'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'ruby-debug19', :require => 'ruby-debug'
+# gem 'ruby-debug19', :require => 'ruby-debug
+
+
+
+
+
+
+
+
+#
