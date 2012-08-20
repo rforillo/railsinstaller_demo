@@ -1,0 +1,25 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: db/development.mysql2
+  username:
+  password:
+  host: localhost
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  database: db/test.mysql2
+  username:
+  password:
+  host: localhost
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: db/production.mysql2
+  username:
+  password:
+  host: localhost
+
+gem 'mysql2'
