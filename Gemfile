@@ -12,6 +12,7 @@ gem 'rails', '3.2.1'
 
 # gem 'pg'
 
+gem 'pg'
 gem 'activerecord-postgresql-adapter'
 gem 'sqlite3'
 gem 'mysql2'
