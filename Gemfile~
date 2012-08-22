@@ -15,7 +15,8 @@ gem 'rails', '3.2.1'
 # gem 'pg'
 # gem 'activerecord-postgresql-adapter'
 # gem 'sqlite3'
-gem 'mysql'
+gem 'mysql2'
+gem 'activerecord-mysql2-adapter'
 
 # , :group => :production
 
