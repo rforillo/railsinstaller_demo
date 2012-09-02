@@ -2,23 +2,22 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.1'
  
+# gems for development
+group :development do
+  # gem 'sqlite3'
+  gem 'mysql2'
+  gem 'activerecord-mysql2-adapter'
+end
+
 # gems for production
-#group :production do
-#  gem "pg"
-#end
+group :production do
+  # gem 'sqlite3'
+  gem 'mysql2'
+  gem 'activerecord-mysql2-adapter'
+end
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
-# gem 'pg'
-
-# gem 'pg'
-# gem 'activerecord-postgresql-adapter'
-# gem 'sqlite3'
-gem 'mysql2'
-gem 'activerecord-mysql2-adapter'
-
-# , :group => :production
 
 # Gems used only for assets and not required
 # in production environments by default.
