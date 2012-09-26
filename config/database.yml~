@@ -17,9 +17,9 @@ test:
 production:
   adapter: mysql2
   encoding: utf8
-  database: app7912272
-  username: app7912272
-  password: mypass
-  host: instance27464.db.xeround.com.:16304
+  database: railsinstaller_demo
+  username: deploy
+  password: MyP4ssW0rd
+  host: railsinstaller_demo_production
 
 
