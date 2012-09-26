@@ -1,10 +1,10 @@
 development:
-  adapter: mysql2
+  adapter: mysql
   encoding: utf8
   database: development
-  username: robert
+  username: robert@localhost
   password: mypass
-  host: 127.0.0.1
+  host: localhost
 
 test:
   adapter: mysql2
@@ -17,9 +17,9 @@ test:
 production:
   adapter: mysql2
   encoding: utf8
-  database: railsinstaller_demo
-  username: deploy
-  password: MyP4ssW0rd
-  host: railsinstaller_demo_production
+  database: db/production.mysql2
+  username: robert@localhost
+  password: mypass
+  host: localhost
 
-
+gem 'mysql2'

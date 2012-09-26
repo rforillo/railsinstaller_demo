@@ -14,18 +14,26 @@
  * @package WordPress
  */
 
+
+define('WP_SITEURL', 'http://' . #_SERVER['SERVER_NAME'] . '/wordpress');
+define('WP_HOME'   , 'http://' . #_SERVER['SERVER_NAME']);
+define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
+define('WP_CONTENT_URL', 'http://', $_SERVER['SERVER_NAME'] . '/wp-content');
+/* define('WP_DEFAULT_THEME', 'mytheme');
+ */
+
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'database_name_here');
+define('DB_NAME', 'railsinstaller_demo');
 
 /** MySQL database username */
-define('DB_USER', 'username_here');
+define('DB_USER', 'deploy');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'password_here');
+define('DB_PASSWORD', 'MyP4ssW0rd');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'railsinstaller_demo_production');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
