@@ -9,10 +9,11 @@ development:
 test:
   adapter: mysql2
   encoding: utf8
-  database: db/test.mysql2
-  username: robert@localhost
+  database: app7912272
+  username: app7912272
   password: mypass
-  host: localhost
+  host: instance27464.db.xeround.com.
+  port: 16304
 
 production:
   adapter: mysql2
@@ -20,6 +21,5 @@ production:
   database: app7912272
   username: app7912272
   password: mypass
-  host: instance27464.db.xeround.com.:16304
-
-
+  host:  instance27464.db.xeround.com.
+  port: 16304
