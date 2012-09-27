@@ -18,8 +18,8 @@ test:
 production:
   adapter: mysql2
   encoding: utf8
-  database: app7912272
-  username: app7912272
-  password: mypass
-  host:  instance27464.db.xeround.com.:16304
+  database: <%= ENV['XEROUND_DATABASE_NAME'] %>
+  username: <%= ENV['XEROUND_DATABASE_USERNAME'] %>
+  password: <%= ENV['XEROUND_DATABASE_PASSWORD'] %>
+  host:  <% ENV['XEROUND_DATABASE_HOST'] %>:<% ENV['XEROUND_DATABASE_PORT'] %>
 
