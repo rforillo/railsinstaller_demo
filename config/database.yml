@@ -21,5 +21,5 @@ production:
   database: <%= ENV['XEROUND_DATABASE_NAME'] %>
   username: <%= ENV['XEROUND_DATABASE_USERNAME'] %>
   password: <%= ENV['XEROUND_DATABASE_PASSWORD'] %>
-  host:  <% ENV['XEROUND_DATABASE_HOST'] %>:<% ENV['XEROUND_DATABASE_PORT'] %>
-
+  host:  <%= ENV['XEROUND_DATABASE_HOST'] %>
+  port:  <%= ENV['XEROUND_DATABASE_PORT'] %>
