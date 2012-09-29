@@ -18,8 +18,7 @@ test:
 production:
   adapter: mysql2
   encoding: utf8
-  database: <%= ENV['XEROUND_DATABASE_NAME'] %>
-  username: <%= ENV['XEROUND_DATABASE_USERNAME'] %>
-  password: <%= ENV['XEROUND_DATABASE_PASSWORD'] %>
-  host:  <% ENV['XEROUND_DATABASE_HOST'] %>:<% ENV['XEROUND_DATABASE_PORT'] %>
-
+  database: development
+  username: robert
+  password: mypass
+  host: 127.0.0.1
