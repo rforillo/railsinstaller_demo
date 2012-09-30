@@ -1,5 +1,0 @@
-class WordpressController < ApplicationController
-  def index
-    @wordpress = Wordpress.all
-  end
-end
